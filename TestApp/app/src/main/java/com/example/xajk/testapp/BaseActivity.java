@@ -8,4 +8,6 @@ import java.util.HashMap;
  */
 
 public abstract  class BaseActivity<P extends ArrayList, V extends HashMap> {
+	int age;
+	int name;
 }

@@ -48,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
                 Log.i(TAG, "captain america");
             }
         });
+
+        Log.i(TAG, "brave heart");
     }
 
 

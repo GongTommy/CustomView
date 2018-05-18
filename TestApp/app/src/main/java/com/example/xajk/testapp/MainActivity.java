@@ -21,8 +21,8 @@ import me.nereo.multi_image_selector.MultiImageSelector;
 import me.nereo.multi_image_selector.MultiImageSelectorActivity;
 
 public class MainActivity extends AppCompatActivity {
-
     private Map<String, List<Integer>> map = new HashMap<>();
+    private final String TAG = getClass().getSimpleName();
 
     @Override
 
@@ -30,18 +30,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ArrayList<Integer> a1 = new ArrayList<>();
-        a1.add(1);
-        a1.add(2);
-        map.put("21", a1);
-        map.put("22", a1);
-        map.put("23", a1);
-        map.put("214", a1);
-
-        Gson gson = new Gson();
-        String json = gson.toJson(map);
-        Log.i("MainActivity", "json------>>>>>:" + json);
-
+        findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(TAG, "captain america");
+            }
+        });
     }
 
 

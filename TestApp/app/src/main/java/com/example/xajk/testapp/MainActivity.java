@@ -36,6 +36,18 @@ public class MainActivity extends AppCompatActivity {
                 Log.i(TAG, "captain america");
             }
         });
+        findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(TAG, "captain america");
+            }
+        });
+        findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(TAG, "captain america");
+            }
+        });
     }
 
 

@@ -8,10 +8,6 @@ import android.view.View;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import me.nereo.multi_image_selector.MultiImageSelector;
-import me.nereo.multi_image_selector.MultiImageSelectorActivity;
-
 public class MainActivity extends AppCompatActivity {
     private Map<String, List<Integer>> map = new HashMap<>();
     private final String TAG = getClass().getSimpleName();

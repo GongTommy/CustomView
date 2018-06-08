@@ -38,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Log.i(TAG, "brave heart");
+        Log.i(TAG, "brave heart");
+        Log.i(TAG, "brave heart");
+        Log.i(TAG, "brave heart");
+        Log.i(TAG, "brave heart");
     }
 
 

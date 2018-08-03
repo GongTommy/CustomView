@@ -38,10 +38,6 @@ public class MainActivity extends AppCompatActivity {
         map.put("23", a1);
         map.put("214", a1);
 
-        Gson gson = new Gson();
-        String json = gson.toJson(map);
-        Log.i("MainActivity", "json------>>>>>:" + json);
-
     }
 
 
